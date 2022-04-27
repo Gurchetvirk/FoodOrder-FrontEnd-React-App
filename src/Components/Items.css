@@ -1,0 +1,51 @@
+.items-container
+{
+    border-bottom: 1px solid grey;
+}
+.items-left-container
+{
+    float: left;
+    margin-bottom: 2rem;
+}
+.items-left-container h3,.items-left-container h4
+{
+    margin:0;
+}
+.items-left-container>h3:first-child
+{
+    line-height: 3rem;
+}
+.items-left-container h4
+{
+    font-style: italic;
+    font-weight: 400;
+}
+.amount
+{
+    color:#9D4C0D;
+}
+.items-right-container
+{
+    float: right;
+}
+.amount-container
+{
+    display: flex;
+    align-items: center;
+}
+.amount-container input
+{
+    width: 2rem;
+    height: 1.2rem;
+    margin-left: 1rem;
+}
+button
+{
+    background: #7F2607;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+}

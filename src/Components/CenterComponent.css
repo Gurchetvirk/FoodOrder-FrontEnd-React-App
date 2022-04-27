@@ -1,0 +1,19 @@
+.center-container
+{
+    background:#323132;
+    width: 44rem;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center-container h4
+{
+    margin: 0;
+}
+.center-container>h4:nth-child(2),.center-container>h4:nth-child(3),.center-container>h4:nth-child(4),.center-container>h4:nth-child(5)
+{
+    font-weight: 100;
+}
